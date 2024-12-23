@@ -32,7 +32,7 @@ formats:
 python:
    install:
      - method: pip
-      packages:
-        - torch==2.5.1
-    - method: pip
-      requirements: docs/requirements.txt
+       packages:
+         - torch==2.5.1
+     - method: pip
+       requirements: docs/requirements.txt
