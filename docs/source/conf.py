@@ -13,6 +13,7 @@
 import datetime
 import os
 import sys
+import torch
 import sphinx_rtd_theme
 import deepsnap
 
