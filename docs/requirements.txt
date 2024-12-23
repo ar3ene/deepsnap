@@ -1,7 +1,6 @@
 torch==2.5.1
 sphinx
 sphinx_rtd_theme
-deepsnap
 torch-scatter==2.1.2
 torch-sparse==0.6.18
 torch-geometric
