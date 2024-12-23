@@ -14,6 +14,8 @@ build:
     # nodejs: "19"
     # rust: "1.64"
     # golang: "1.19"
+  before_build:
+    - pip install torch==2.5.1
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
@@ -29,13 +31,5 @@ formats:
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
 python:
    install:
-     # Step 1: Install the project itself (if needed)
-      - method: pip
-        path: .
-    
-      # Step 2: Install dependencies from docs/requirements.txt
-      - method: pip
-        requirements: docs/requirements.txt
-    
-      # Step 3: Manually install torch before torch-scatter
-      - command: pip install torch==2.5.1
+     - method: pip
+      requirements: docs/requirements.txt
