@@ -16,7 +16,13 @@ setuptools.setup(
     install_requires=[
         'torch',
         'networkx',
-        'numpy'
+        'numpy',
+        "sphinx",
+        "sphinx_rtd_theme",
+        "deepsnap",
+        "torch-scatter==2.1.2",
+        "torch-sparse==0.6.18",
+        "torch-geometric"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
