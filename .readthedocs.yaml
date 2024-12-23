@@ -29,9 +29,5 @@ formats:
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
 python:
    install:
-      # requirements: docs/requirements.txt
-      - method: pip
-        packages:
-          - torch==2.5.1
-      - method: pip
-        requirements: docs/requirements.txt
+      - requirements: docs/requirements.txt
+      - command: pip install torch==2.5.1
