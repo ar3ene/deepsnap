@@ -1,6 +1,6 @@
+torch
 sphinx
 sphinx_rtd_theme
-torch
 deepsnap
 torch-scatter
 torch-sparse
