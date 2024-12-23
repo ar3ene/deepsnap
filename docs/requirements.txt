@@ -1,6 +1,5 @@
 sphinx
 sphinx_rtd_theme
-torch
 torch-scatter
 torch-sparse
 torch-geometric
